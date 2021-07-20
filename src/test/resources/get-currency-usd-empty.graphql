@@ -1,0 +1,8 @@
+query {
+    getCurrencyPair(base: "USD", target: "") {
+        base_code
+        target_code
+        conversion_rate
+        result
+      }
+}

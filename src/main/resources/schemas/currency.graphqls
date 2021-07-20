@@ -1,0 +1,12 @@
+type Query {
+    getCurrencyPair(base: String, target: String): CurrencyPair
+}
+
+type CurrencyPair {
+     base_code: String
+     target_code: String
+     conversion_rate: Float
+     result: String
+     error_type: String
+}
+
